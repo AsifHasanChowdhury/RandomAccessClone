@@ -1,4 +1,4 @@
-
+@import url('https://fonts.googleapis.com/css2?family=Barlow+Semi+Condensed:wght@500&display=swap');
 *{
     margin:0;
     padding:0;
@@ -381,7 +381,8 @@ a{
 }
 .stack-top1{
     /* margin-top: max(-400px,100%);  */
-    margin-top:min(145px,55%);
+    margin-top:min(145px,55%); 
+    /* margin-top:8%; */
     z-index: 6;
 }
 
@@ -810,7 +811,13 @@ footer ul{
 
     .bottom-card{
         display: grid;
-        grid-template-columns: 80%;
+        grid-template-columns: 95%;
+        margin-left: -20px;
+       
+    }
+    
+    .bottom-card .card .details p{
+        color:black;
     }
 
     
