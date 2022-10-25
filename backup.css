@@ -646,7 +646,7 @@ footer ul{
     }
 
     .container{
-        min-height:140vh;
+        min-height:130vh;
        
     }
     .hero{
@@ -658,7 +658,7 @@ footer ul{
     }
 
     .stack-top1{
-        margin-top: 50rem;
+        margin-top: 45rem;
     }
 
 
@@ -749,12 +749,15 @@ footer ul{
     padding-top: 10rem;
     
    }
-  
+  .container{
+    min-height: 142vh;
+  }
 
     .box{
         display: flex;
         flex-direction: column;
         height: 90vh;
+       
         
        
     }
@@ -764,15 +767,15 @@ footer ul{
     }
    
     .stack-top1{
-        /* margin-top: 330px; */
+        margin-top: 90px; 
         z-index: 6;
     }
     .general-info{
         display: flex;
         flex-direction:column;
         padding-right: 3.5rem;
-        height: 100vh;
-        margin-top: 100rem;
+        height: 95vh;
+        margin-top: 50rem;
         
         
     }
@@ -795,7 +798,7 @@ footer ul{
         display: grid;
         grid-template-columns: 90%;
         padding-left: 0px;
-        margin-left: 0px;
+        margin-left: -25px;
         
     }
 
