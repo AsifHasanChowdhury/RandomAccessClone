@@ -577,21 +577,22 @@ footer ul{
     }
 
     .stack-top1{
-        margin-top: 20px;
+        margin-top: 100px;
     }
     .general-info{
         margin-top: 380px;
     }
   
     
-    /* .container{
-        min-height:50vh;
-       
-    }
+    /* 
     .container .box{
         display: flex;
         flex-direction:column;
 
+    }
+    .container{
+        min-height:50vh;
+       
     }
     .container .box .card{
         width:45rem;
@@ -620,6 +621,72 @@ footer ul{
     } */
     
 }  
+
+@media screen and (max-width:760px){
+    .sticky-ul{
+        display: none;
+    }
+
+    .burger{
+        position:relative;
+        display:inline-block;
+        z-index: 40;
+        cursor: pointer;
+    }
+    
+    .burger span{
+        width: 30px;
+        height: 3.6px;
+        padding:2px;
+        margin: 2px;
+        color: black;
+        background-color: black;
+        display: flex;
+        flex-direction: column;
+    }
+
+    .container{
+        min-height:140vh;
+       
+    }
+    .hero{
+        padding-left: 6rem;
+    }
+    .hero h3{
+        font-weight: light;
+
+    }
+
+    .stack-top1{
+        margin-top: 50rem;
+    }
+
+
+
+    .general-info{
+        margin-top: 380px;
+    }
+  
+    
+    
+    .container .box{
+        display: flex;
+        flex-direction:column;
+
+    }
+   
+    .container .box .card{
+        width:45rem;
+        min-height:250px;
+    }
+
+    .bottom-card{
+        display: grid;
+        grid-template-columns: 75%;
+        margin: 0;
+       
+    }
+}
 
 /*ipad / ipad mini responsive */
 
@@ -791,7 +858,7 @@ footer ul{
         flex-direction:column;
         padding: 0rem;
         height: 107vh;
-        margin-top: 60rem;
+        margin-top: 15rem;
         margin-left: -1.3rem;
     }
   
